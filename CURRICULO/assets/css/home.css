@@ -149,4 +149,22 @@
 
 /* EDUCAÇÃO */
 
+.conteiner .h-educacao
+{
+    width: 100%;
+    min-height: 100px;
+}
 
+.conteiner .h-educacao .h-titulo-educacao
+{
+    width: 100%;
+    height: 50px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    border-bottom: 2px solid #00e0ff;
+}
+
+.conteiner .h-educacao .h-titulo-educacao h2
+{
+    
+}
