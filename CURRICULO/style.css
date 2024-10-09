@@ -1,4 +1,6 @@
 @import"./assets/css/home.css";
+@import"./assets/css/responsivo.css";
+@import"./assets/css/utilitarios.css";
 *
 {
     margin: 0;
