@@ -1,0 +1,131 @@
+/* TABLET 768PX */
+
+@media screen and(max-width: 780px)
+{
+   .conteiner .h-habilidades .item
+   {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 20px;
+   } 
+}
+
+/* mobile 425PX */
+
+@media screen and(max-width: 425px)
+{
+   .conteiner .h-name
+   {
+        margin-top: 10%;
+        margin-bottom: 50px;
+   } 
+
+   .conteiner .h-name h1
+   {
+        font-size: 28px;
+   } 
+
+   .conteiner .h-name h2
+   {
+        font-size: 22px;
+   } 
+
+   /* SOBRE */
+
+   .conteiner .h-sobre
+   {
+        width:100%;
+        min-height: 100px;
+        margin-bottom: 50px;
+   }
+
+   .conteiner .h-sobre .h-titulo-sobre h2
+   {
+        margin-top: 5%;
+        font-size: 22px;
+   }
+
+   .conteiner .h-sobre .paragraf
+   {
+        font-size: 18px;
+   }
+
+   /* EXPERIÊNCIA */
+
+   .conteiner .h-experiencia .h-titulo-experiencia h2
+   {
+        margin-top: 5%;
+        font-size: 22px;
+   }
+
+   .conteiner .h-experiencia .h-itens .item
+   {
+       display: flex;
+       flex-direction: column;
+       width: 100%;
+       min-height: 220px;
+       margin-bottom: 50px;
+   }
+
+   .conteiner .h-experiencia .h-itens .item .work
+   {
+       min-width: 100%;
+       min-height: 80px;
+   }
+
+   .conteiner .h-experiencia .h-itens .item .description
+   {
+       min-width: 100%;
+       min-height: 100px;
+   }
+
+   .conteiner .h-experiencia .h-itens .item .description h2
+   {
+       margin-bottom: 20px;
+   }
+
+   /* EDUCAÇÃO */
+
+   .conteiner .h-educacao .h-titulo-educacao h2
+   {
+        margin-top: 5%;
+        font-size: 22px;
+   }
+
+   .conteiner .h-educacao .item
+   {
+        margin-bottom: 50px;
+   }
+
+   .conteiner .h-educacao .item .titulo
+   {
+        margin-bottom: 20px;
+   }
+
+   .conteiner .h-educacao .item .titulo h2
+   {
+        font-size: 22px;
+   }
+
+   .conteiner .h-educacao .item .titulo span
+   {
+        font-size: 22px;
+   }
+
+   /* HABILIDADES */
+
+   .conteiner .h-habilidades .h-titulo-habilidades h2
+   {
+        margin-top: 5%;
+        font-size: 22px;
+   }
+
+   .conteiner .h-habilidades .item
+   {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        margin-bottom: 20px;
+   }
+}
